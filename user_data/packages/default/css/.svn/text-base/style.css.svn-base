@@ -1,0 +1,362 @@
+@charset "utf-8";
+
+/************************************************
+ 各ページコンテンツ用
+************************************************ */
+/* ==============================================
+▼共通
+=============================================== */
+
+.block_name{
+    font-size: 14px;
+    /*font-weight: bold;*/
+    color: #333;
+    margin: 20px 0 25px 0;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.custom_block_name{
+    color: #000;
+    font-size: 14px;
+    /*font-weight: bold;*/
+/*    background: url('../img/common/block_name_border.gif') left bottom no-repeat;
+    background-size: contain;*/
+    border-bottom: 4px solid #999;
+    /*padding-bottom: 5px;*/
+}
+.catalog_area{
+    padding-top:15px;
+}
+.catalog_area a:hover{
+    opacity:0.8;
+    filter: alpha(opacity=80);
+    -ms-filter: "alpha( opacity=80 )";
+    background: #fff;
+}
+.catalog_area img{
+    max-width: 168px;
+    border: 2px solid #999;
+}
+.catalog_viewer{
+    margin-bottom: 20px;
+}
+.catalog_viewer img{
+    margin-bottom: 15px;
+    border: 1px solid #E1E1E1;
+}
+.catalog_comment{
+    font-size: 10px;
+}
+.custom_block_name_center{
+    color: #000;
+    font-size: 14px;
+    /*font-weight: bold;*/
+    border-bottom: 4px solid #999;
+    /*margin-top: 6px;*/
+    margin-bottom: 15px;
+}
+#cart_area{
+    height: 180px;
+    background: url('../img/category/category_back.gif') no-repeat;
+    background-position: 0px 20px;
+    background-size: contain;
+}
+.block_name_center{
+    font-size: 16px;
+    /*font-weight: bold;*/
+    color: #333;
+    margin: 20px 0 20px 0;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #EEE;
+}
+.block_name_center span{
+    font-size: 12px;
+    /*font-weight: bold;*/
+    color: #999;
+    margin-left: 20px;
+}
+.header_navi_link{
+    float: right;
+}
+.header_navi_link li{
+    margin: 15px 3px 20px 0;
+}
+.header_navi_link li a{
+    background-color: #EFEDDC;
+    padding: 5px 5px 5px 5px;
+    color: #333;
+    text-decoration: none;
+}
+.header_navi_link li a:hover{
+    background-color: #000;
+    padding: 5px 5px 5px 5px;
+    color: #fff; 
+    text-decoration: none;
+}
+.login_link input{
+    color: #fff;
+    font-weight: bold;
+    margin-top: 2px;
+    background-color: #000;
+    float: right;
+    padding: 0 5px 0 5px;
+    border: none;
+}
+
+.login_link:hover{
+
+}
+.login_link input:hover{
+    color: #000;
+    font-weight: bold;
+    margin-top: 2px;
+    background-color: #fff;
+    float: right;
+    padding: 0 5px 0 5px;
+    border: none;
+}
+.logout_link input{
+    color: #fff;
+    font-weight: bold;
+    margin-top: 2px;
+    background-color: #C13C26;
+    padding: 0 5px 0 5px;
+    border: none;
+}
+.logout_link input:hover{
+    color: #000;
+    font-weight: bold;
+    margin-top: 2px;
+    background-color: #fff;
+    padding: 0 5px 0 5px;
+    border: none;
+}
+
+
+.forgot_link{
+    font-size: 10px;
+    float: left;
+    padding-left: 60px;
+    
+}
+.search_btn{
+    margin: 15px 0 0 10px;;   
+}
+.search_btn input{
+    font-weight: bold;
+    color: #333;
+    padding: 3px 0 0 0;
+    padding: 5px 5px 4px 5px;
+    background-color: #EEE;
+    text-align: center;
+    font-weight: bold;
+    width: 80px;
+    border: none;
+}
+.search_btn input:hover{
+    font-weight: bold;
+    color: #fff;
+    padding: 3px 0 0 0;
+    padding: 5px 5px 4px 5px;
+    background-color: #000;
+    text-align: center;
+    font-weight: bold;
+    width: 80px;
+    border: none;
+}
+.block_name_list{
+    color: #000;
+    font-size: 14px;
+    /*font-weight: bold;*/
+/*    background: url('../img/common/block_name_border.gif') left bottom no-repeat;
+    background-size: contain;*/
+    border-bottom: 4px solid #999;
+    /*padding-bottom: 5px;*/
+    /*font-size: 16px;*/
+    /*font-weight: bold;*/
+    /*color: #333;*/
+    /*padding-bottom: 10px;*/
+    /*border-bottom: 2px solid #EEE;*/
+    /*font-weight: bold;*/
+    /*margin-top: 10px;*/
+    margin-bottom: 10px;
+}
+.block_name_list span{
+    font-size: 12px;
+    /*font-weight: bold;*/
+    color: #999;
+    margin-left: 20px;
+}
+.item_detail_link{
+    /*float: right;*/
+}
+.item_detail_link{
+    margin: 15px 3px 20px 0;
+}
+.item_detail_link a{
+    background-color: #5FB336;
+    padding: 5px 5px 5px 5px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.item_detail_link a:hover{
+    background-color: #000;
+    padding: 5px 5px 5px 5px;
+    color: #fff; 
+    text-decoration: none;
+}
+.check_cart{
+    width: 130px;
+    padding: 5px 0px 5px 10px;
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    background: url('../img/common/cart_lock.gif') no-repeat;
+    background-position: 10% 50%;
+    background-color: #EFEDDC;
+    background-size: 20px 16px;
+}
+
+.check_cart:hover{
+    width:130px;
+    font-weight: bold;
+    padding: 5px 0px 5px 10px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    background: url('../img/common/cart_lock_hover.gif') no-repeat;
+    background-position: 10% 50%;
+    background-color: #000;
+    background-size: 20px 16px;
+}
+#cart_area a{
+    text-decoration: none;
+    
+}
+.detail_btn a{
+    background-color: #F1EFE5;
+    padding: 5px 20px 5px 20px;
+    color: #333;
+    text-decoration: none;
+    text-align: center;
+    width:180px;
+    /*font-weight: bold;*/
+}
+.detail_btn a:hover{
+    background-color: #000;
+    padding: 5px 20px 5px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    width:180px;
+    /*font-weight: bold;*/
+}
+.credit_btn_area {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+.credit_btn_area img:hover{
+    opacity:0.8;
+    filter: alpha(opacity=80);
+    -ms-filter: "alpha( opacity=80 )";
+    background: #fff;
+}
+#credit_payment_btn{
+    border: 0px;
+    width: 200px;
+    height: 50px;
+    background: url('../img/common/credit_payment.jpg') left top no-repeat;
+}
+
+#credit_payment_btn:hover{
+    border: 0px;
+    width: 200px;
+    height: 50px;
+    background: url('../img/common/credit_payment.jpg') left top no-repeat;
+    opacity:0.8;
+    filter: alpha(opacity=80);
+    -ms-filter: "alpha( opacity=80 )";
+}
+.footer_body{
+    float: left;
+}
+.footer_logo{
+    float: left;
+    width: 30%;
+    margin: 20px 0 20px 0;
+}
+.footer_text{
+    float: left;
+    width: 40%;
+    margin: 20px 0 20px 50px;
+    color:#fff;
+    text-align: left;
+}
+.footer_sns{
+    float: left;
+    width: 10%;
+    margin: 20px 0 20px 50px;
+    color:#fff;
+}
+.footer_top {
+    margin: 5px auto;
+    width: 100%;
+    height: 650px;
+    background: #F1EFE5;
+}
+.footer_top_body{
+    margin: auto;
+    width:1000px;
+}
+.footer_top_box{
+    float:left;
+    margin: 20px;
+    padding-right: 30px;
+    border-right: 1px dotted #666;
+}
+.footer_top_box span{
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+}
+.sub_photo_area{
+    width:100%;
+    margin-top: 20px;
+}
+.sub_single_image{
+    margin: 10px 10px 20px 0;
+    float: left;
+    width: 120px;
+}
+.sub_single_image img{
+    width: 120px;
+    height: auto;
+    border: 1px solid rgb(221, 221, 221);
+}
+#tab {
+width: 60px;/* 最初に表示されるバナーの幅 */
+height:245px;/* バナーの高さ */
+background: url('../img/banner/paperwallet_sale_side.jpg') no-repeat;/* 画像のURL */
+background-size: 150px 245px;
+position: fixed;/* バナーを固定します */
+right: 0;/* 右から0pxの位置に指定 */
+top: 100px;/* 下から100pxの位置に指定 */
+z-index: 100;
+}
+#tab a {/* リンクするエリアをバナー全体に広げる設定 */
+display: block;
+width: 100%;
+height: 100%;
+}
+#tab:hover {/* カーソルが乗った時の動きを指定 */
+width: 150px;/* バナーが伸びた時の幅 */
+/* 以下アニメーションの設定 */
+-webkit-transition: width ease-in-out 0.5s;
+-moz-transition: width ease-in-out 0.5s;
+-ms-transition: width ease-in-out 0.5s;
+-o-transition: width ease-in-out 0.5s;
+transition: width ease-in-out 0.5s;
+}
